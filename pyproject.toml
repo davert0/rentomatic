@@ -1,3 +1,7 @@
 [tool.black]
 line-length = 75
 target-version = ['py37']
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]
